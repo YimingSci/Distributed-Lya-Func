@@ -15,6 +15,9 @@ See the reference below for more details.
 
 # Pseudocodes
 
+
+For further details on the formulation and implementation of SOS programming (e.g., using the function `sosprogram` from MATLAB's SOSTOOLS), we refer the user to the tutorial article in Ref. [2].
+
 # Dependences
 
 - `EigOptimization` : This folder contains optimization routines (`beta_opt.m`) used to minimize the Lyapunov exponent (calculated in `opteigreal.m`) associated with the corresponding flocking models (`CM`, `TD`, `OS`) for heterogeneous (`het`) and homogeneous (`hom`) systems.
@@ -35,6 +38,6 @@ The full text of the GNU General Public License can be found in the file "LICENS
 
 # References
 1.  AN Montanari, AED Barioni, C Duan, AE Motter. Optimal flock formation induced by heterogeneity. (2024)
-2.  R Olfati-Saber. Flocking for multi-agent dynamic systems: Algorithms and theory. *IEEE Transactions on Automatic Control*, **51**:401-420 (2006).
-3.  K Engelborghs, T Luzyanina, D Roose. Numerical bifurcation analysis of delay differential equations using DDE-BIFTOOL. *ACM Transactions on Mathematical Software*, **28**:1-21 (2002).
+2.  A Packard, U Topcu, PJ Seiler Jr, G Balas. Help on SOS. *IEEE Control Systems Magazine*, 30(4), 18-23 (2010).
+
 
