@@ -25,7 +25,7 @@ For further details on the formulation and implementation of SOS programming (e.
 - `SOS Toolbox`: This code requires the SOS (Sum of Squares) Toolbox to be pre-installed. Link: https://github.com/oxfordcontrol/SOSTOOLS
 - `WattsStrogatz Toolbox`: This optional toolbox is used to generate basic coupled oscillator networks. Link: https://www.mathworks.com/help/matlab/math/build-watts-strogatz-small-world-graph-model.html
 
-All codes were tested and run in MATLAB 2024a. To run the codes, download all files in this repository to a folder of your choice and run one of the `main` scripts of your choice. All codes generate/include the required data to run the simulations and optimization; simulations can take a few minutes on a standard laptop.
+All codes were tested and run in MATLAB 2024a. To run the codes, download all files in this repository to a folder of your choice and run one of the scripts of your choice. All codes generate/include the required data to run the simulations and optimization; simulations can take a few minutes on a standard laptop.
 
 # License
 
