@@ -5,7 +5,7 @@ See the reference below for more details.
 
 # Usage
 
-- `VDP\_dis\_lya\_func.m` : This code adopts the method from Ref. \[1] to construct a Lyapunov function for the Van der Pol oscillator.
+- `VDP_dis_lya_func.m` : This code adopts the method from Ref. \[1] to construct a Lyapunov function for the Van der Pol oscillator.
 
 # Pseudocodes
 
