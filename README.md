@@ -18,6 +18,14 @@ See the reference below for more details.
 
 For further details on the formulation and implementation of SOS programming (e.g., using the function `sosprogram` from MATLAB's SOSTOOLS), we refer the user to the tutorial article in Ref. [2].
 
+![image](https://github.com/user-attachments/assets/4f0b8f9c-8654-47b6-917f-0f9db6f3d704)
+
+![image](https://github.com/user-attachments/assets/4a0e8d92-05a7-4c00-ad44-07872d6b8c59)
+
+![image](https://github.com/user-attachments/assets/a77ba12a-90ee-4c9c-94df-47b0a71f50b7)
+
+
+
 # Dependences
 
 - `EigOptimization` : This folder contains optimization routines (`beta_opt.m`) used to minimize the Lyapunov exponent (calculated in `opteigreal.m`) associated with the corresponding flocking models (`CM`, `TD`, `OS`) for heterogeneous (`het`) and homogeneous (`hom`) systems.
