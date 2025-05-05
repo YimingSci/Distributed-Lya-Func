@@ -28,13 +28,10 @@ For further details on the formulation and implementation of SOS programming (e.
 
 # Dependences
 
-- `EigOptimization` : This folder contains optimization routines (`beta_opt.m`) used to minimize the Lyapunov exponent (calculated in `opteigreal.m`) associated with the corresponding flocking models (`CM`, `TD`, `OS`) for heterogeneous (`het`) and homogeneous (`hom`) systems.
-  
-- `FlockODEs` : This folder contains the ODEs describing the CM (`CMflock_piecewise.m`) and OS (`OSflock.m`) flocking models. The functions `agent_coord.m` compute the performance metrics (tracking error, lattice deviation energy, relative connectivty) and the XY coordinates of the agents/target for each time instant in the corresponding models.
+- `SOS Toolbox`: This code requires the SOS (Sum of Squares) Toolbox to be pre-installed. Link:
+- `WattsStrogatz Toolbox`: This optional toolbox is used to generate basic coupled oscillator networks. Link:
 
-- The  time-delay consensus model (`main_TDconsensus.m`) requires installation of the DDE-BIFTOOL toolbox. These codes were tested on version 3.0. See Ref. 3 and their website (https://sourceforge.net/projects/ddebiftool/) for more details.
-
-All codes were tested and run in MATLAB 2023a. To run the codes, download all files in this repository to a folder of your choice and run one of the `main` scripts of your choice. All codes generate/include the required data to run the simulations and optimization; simulations can take a few minutes on a standard laptop.
+All codes were tested and run in MATLAB 2024a. To run the codes, download all files in this repository to a folder of your choice and run one of the `main` scripts of your choice. All codes generate/include the required data to run the simulations and optimization; simulations can take a few minutes on a standard laptop.
 
 # License
 
