@@ -38,7 +38,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 The full text of the GNU General Public License can be found in the file "LICENSE.txt".
 
 # References
-1.  Y Wang, AN Montanari, AE Motter. Distributed Lyapunov Functions for Nonlinear Networks. (2025)
+1.  Y Wang, AN Montanari, AE Motter. Distributed Lyapunov Functions for Nonlinear Networks (2025). (submitted)
 2.  A Packard, U Topcu, PJ Seiler Jr, G Balas. Help on SOS. *IEEE Control Systems Magazine*, 30(4), 18-23 (2010).
 
 
