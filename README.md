@@ -5,8 +5,10 @@ See the reference below for more details.
 
 # Usage
 
-- `VDP_dis_lya_func.m` : This code adopts the method from Ref. \[1] to construct a Lyapunov function for the Van der Pol oscillator.
-
+- `VDP_dis_lya_func.m` : This code adopts the method from Ref. \[1] to construct a Lyapunov function for the Van der Pol oscillators.
+- `Ising_dis_lya_func.m` : This code adopts the method from Ref. \[1] to construct a Lyapunov function for the Ising oscillators.
+- `randomEP.mat`: This database provides arbitrarily selected equilibrium points, which are used to study the competition between equilibrium points of the Ising oscillators.
+   
 # Pseudocodes
 
 
