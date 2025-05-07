@@ -11,8 +11,7 @@ See the reference below for more details.
    
 # Pseudocodes
 
-
-For further details on the formulation and implementation of SOS programming (e.g., using the function `sosprogram` from MATLAB's SOSTOOLS), we refer the user to the tutorial article in Ref. [2].
+The pseudocodes below provide an overview of our distributed SOS-based approach for the construction of Lyapunov functions, as described in Ref. [1].
 
 ![image](https://github.com/user-attachments/assets/4f0b8f9c-8654-47b6-917f-0f9db6f3d704)
 
@@ -20,14 +19,14 @@ For further details on the formulation and implementation of SOS programming (e.
 
 ![image](https://github.com/user-attachments/assets/a77ba12a-90ee-4c9c-94df-47b0a71f50b7)
 
-
+For further details on the formulation and implementation of SOS programming (e.g., using the function `sosprogram` from MATLAB's SOSTOOLS), we refer the user to the tutorial article in Ref. [2].
 
 # Dependences
 
 - `SOS Toolbox`: This code requires the SOS (Sum of Squares) Toolbox to be pre-installed. Link: https://github.com/oxfordcontrol/SOSTOOLS
 - `WattsStrogatz Toolbox`: This optional toolbox is used to generate basic coupled oscillator networks. Link: https://www.mathworks.com/help/matlab/math/build-watts-strogatz-small-world-graph-model.html
 
-All codes were tested and run in MATLAB 2024a. To run the codes, download all files in this repository to a folder of your choice and run one of the scripts of your choice. All codes generate/include the required data to run the simulations and optimization; simulations can take a few minutes on a standard laptop.
+All codes were tested and run in MATLAB 2024a. To run the codes, download all files in this repository to a folder of your choice and run one of the scripts of your choice. All codes generate/include the required data to run the simulations and optimization; simulations can take a few hours on a standard laptop.
 
 # License
 
