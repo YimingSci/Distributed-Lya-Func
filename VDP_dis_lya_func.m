@@ -416,6 +416,6 @@ for i_iter1 = 1:1:i_iter1_max
     disp(Vg)
 
     disp(['Distributed approximation of the stability margin:'])
-    disp(eta)
+    disp(Eta)
 end
 
