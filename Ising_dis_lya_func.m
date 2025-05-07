@@ -20,6 +20,7 @@ Matrix_sep = equilibria(:,1)';
 Sto_acc = [];
 sep_count = 0;
 
+% For-loop over distinct SEPs
 for i_sep = 1:1:size(Matrix_sep,1)
     i_sep = 1;
     phi_sep = Matrix_sep(i_sep,:);
@@ -424,4 +425,10 @@ for i_sep = 1:1:size(Matrix_sep,1)
             end
         end
     end
+
+    disp(['Distributed approximation of the global Lyapunov function:'])
+    disp(Vg)
+
+    disp(['Distributed approximation of the stability margin:'])
+    disp(Eta)
 end
