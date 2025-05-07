@@ -13,7 +13,7 @@ for i_alpha = 1:1:100
     end
 end
 
-i_iter1_max = 100;
+i_iter1_max = 1;
 for i_iter1 = 1:1:i_iter1_max
 
     K_mean = 0.02;
@@ -411,4 +411,11 @@ for i_iter1 = 1:1:i_iter1_max
             end
         end
     end
+
+    disp(['Distributed approximation of the global Lyapunov function:'])
+    disp(Vg)
+
+    disp(['Distributed approximation of the stability margin:'])
+    disp(eta)
 end
+
